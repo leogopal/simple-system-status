@@ -1,11 +1,22 @@
-name: Deploy to WordPress.org
+# This is a basic workflow to help you get started with Actions
+
+name: Plugin to .org repo deploy
+
+# Controls when the action will run. 
 on:
+  # Triggers the workflow on push or pull request events but only for the main branch
   push:
     tags:
     - "*"
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   tag:
     name: New tag
+
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
@@ -13,8 +24,13 @@ jobs:
       run: |
         npm install
         npm run build
-    - name: WordPress Plugin Deploy
-      uses: leogopal/action-wp-plugin-deploy@main
-      env:
-        SVN_PASSWORD: ${{ secrets.SVN_PASSWORD }}
-        SVN_USERNAME: ${{ secrets.SVN_USERNAME }}
+
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo Hello, world!
+
+      - name: WordPress Plugin Deploy
+        uses: leogopal/action-wp-plugin-deploy@main
+        env:
+          SVN_PASSWORD: ${{ secrets.SVN_PASSWORD }}
+          SVN_USERNAME: ${{ secrets.SVN_USERNAME }}
