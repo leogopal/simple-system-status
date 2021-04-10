@@ -1,0 +1,22 @@
+{
+  "name": "simple-system-status",
+  "version": "1.0.0",
+  "description": "WP Status Viewer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leogopal/simple-system-status.git"
+  },
+  "keywords": [
+    "debug"
+  ],
+  "author": "leogopal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leogopal/simple-system-status/issues"
+  },
+  "homepage": "https://github.com/leogopal/simple-system-status#readme"
+}
