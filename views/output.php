@@ -105,19 +105,22 @@ Parent Theme:             <?php echo $parent_theme->Name ?>
 Parent Theme Version:     <?php echo $parent_theme->Version . "\n"; ?>
 Parent Theme URI:         <?php echo $parent_theme->get('ThemeURI') . "\n"; ?>
 Parent Theme Author URI:  <?php echo $parent_theme->{'Author URI'} . "\n"; ?>
+
 <?php } ?>
 
 ## Plugins Information ##
 
 <?php 
-$muplugins = wp_get_mu_plugins();
-    if( count( $muplugins > 0 ) ) {
+$muplugins = get_mu_plugins();
+    
+if( $muplugins ) {
+
         echo "\n" . '-- Must-Use Plugins' . "\n\n";
 
         foreach( $muplugins as $plugin => $plugin_data ) {
             echo $plugin['Name'] . ': ' . $plugin['Version'] . ' ' .$plugin['Author'] .' ' .$plugin['PluginURI'] ."\n";
         }
-    }
+}
 
 	// WordPress active plugins
 	echo "\n" . '-- WordPress Active Plugins' . "\n\n";
