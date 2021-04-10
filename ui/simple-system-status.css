@@ -1,0 +1,37 @@
+/*
+ * Styles for Simple System Status Plugin
+ */
+
+h2.sss-title {
+	font-family: 'Open Sans', Arial,sans-serif;
+	font-weight: 300;
+	font-size: 3em;
+	margin: 1em 0;
+}
+
+.instructions {
+	font-family: 'Open Sans', Arial,sans-serif;
+	margin-top: 0;
+}
+
+textarea#sss-textarea {
+	height: 500px;
+	font-family: Menlo,Monaco,monospace;
+	background: 0 0;
+	white-space: pre;
+	overflow: auto;
+	display: block;
+	padding: 10px 30px;
+}
+
+
+input[type="text"].sss-url {
+	font-family: Menlo,Monaco,monospace;
+	width: 600px;
+	color: #444;
+	padding: 10px;
+}
+
+.sss-tiny {
+	font-size: .8em;
+}
