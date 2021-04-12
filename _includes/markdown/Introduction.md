@@ -1,29 +1,115 @@
-<h2 id="audience" class="anchor-heading">Audience {% include Util/link_anchor anchor="audience" %}</h2>
+# Simple System Status
 
-The 10up Engineering Best Practices are not geared to teach anyone to become an engineer. Rather, they aim to illustrate how to engineer the 10up way. Therefore, these best practices are intended for capable engineers.
+[![WP](https://img.shields.io/badge/WordPress-v5.7-lightgrey.svg?style=flat-square)](https://wordpress.org/plugins/simple-system-status/)
+[![WP Plugin Version](https://img.shields.io/wordpress/plugin/v/simple-system-status.svg?style=flat-square&label=version)](https://wordpress.org/plugins/simple-system-status/)
+[![WP Downloads](https://img.shields.io/wordpress/plugin/dt/simple-system-status.svg?style=flat-square)](https://wordpress.org/plugins/simple-system-status/)
+[![WP Rating](https://img.shields.io/wordpress/plugin/r/simple-system-status.svg?style=flat-square)](https://wordpress.org/support/view/plugin-reviews/simple-system-status?filter=5)
+[![License](https://img.shields.io/badge/license-GPL%20v2.0-lightgrey.svg?style=flat-square)](https://github.com/leogopal/simple-system-status/blob/master/license.txt)
 
-<h2 id="goal" class="anchor-heading">Goal {% include Util/link_anchor anchor="goal" %} {% include Util/top %}</h2>
+[![Support Level](https://img.shields.io/badge/support-active-green.svg)](#support-level)
 
-As a company, we strive to provide websites and components that yield a top-notch user experience. In order to improve efficiency, we need to standardize what we use and how we use it. Standardizing our tools, frameworks, libraries, style, version control, and even languages will allow us to better understand the inner workings of someone else’s project and produce better solutions ourselves.
+## Desciption
 
-As such, 10up engineers should follow these best practices in all their work. Our best practices are not meant to be restrictive or comprehensive; we value creativity at 10up. The aim is for this document to provide a strong guidance, not an authoritative direction. It's our hope that these best practices will not only influence 10uppers but community members as well.
+"Simple System Status" does exactly what it says on the box - shows you, very simply, your systems status for your WordPress Setup.
 
-<h2 id="philosophy" class="anchor-heading">Philosophy {% include Util/link_anchor anchor="philosophy" %} {% include Util/top %}</h2>
+Simple System Status adds a submenu item under the 'tools' section of your WordPress installation.
 
-> "We make web publishing easy. Maybe even fun."
+## What Others are Saying
 
-At the very heart of 10up is the publishing or user experience. WordPress, we firmly believe, is the best starting point to achieve this. We design and build custom publishing experiences for major companies and brands around the world. Our publishing experiences or websites are tailor-made for our clients and their specific needs.
+*This is a brilliant plugin for getting all the relevant info out of your system. The built-in remote viewing option for letting other people securely access your system status is incredibly helpful for remote debugging. Nice work :)*
+~ *[Hugh Lashbrooke, WooThemes Lead Developer](http://www.hughlashbrooke.com/)*
 
-As such, the content management experience cannot be made to be generic. We don't cut corners when it comes to user experience and interface. We don't take shortcuts that compromise the end experience for the user. We don't distribute pre-packaged, auto-generated user interfaces or components.
+### Like the Plugin
 
-> "Keep it simple."
+If you found this plugin useful, **[please give it a rating](https://wordpress.org/support/view/plugin-reviews/simple-system-status?rate=5#postform)**
 
-While our solutions are complex, we want our code, tools, processes, systems, and practices to be as simple as possible. Simplicity facilitates collaboration as there is a lower barrier of entry. This goes for things like PHP design patterns as well as workflow. We discourage practices such as writing extra levels of code abstraction (wrapping existing API's) as they complicate debugging and add another component that needs to be maintained.
+### Download
 
-> "We are always learning."
+- Download from [WordPress.org](https://wordpress.org/plugins/simple-system-status/)
 
-We are constantly challenging ourselves and learning. Knowledge gives us a competitive edge. Everyone around us is growing; if we stop growing individually or collectively and stop challenging ourselves to improve, we fall behind. For that reason, this document is not set in stone and will change. Evolving these best practices through contributions is incredibly important to us.
 
-<h2 id="contributing" class="anchor-heading">Contributing {% include Util/link_anchor anchor="contributing" %} {% include Util/top %}</h2>
+### Issues and Support
 
-Please contribute via [pull requests on GitHub](https://github.com/10up/Engineering-Best-Practices).
+If you find a bug that you would like to report, please open a [New Issue on Github](https://github.com/leogopal/Simple-System-Status-for-WordPress/issues/new).
+
+If you want help using the plugin, please use the default [WordPress Plugin Forum](https://wordpress.org/support/plugin/simple-system-status).
+
+### Contribute
+
+Want to contribute? [Fork the GitHub repository](https://github.com/leogopal/Simple-System-Status-for-WordPress).
+
+###  What Simple System Status Displays For You
+
+**WordPress Environment:**
+
+- WP Version.
+- Checks if WP_DEBUG is turned on.
+- WP Language.
+- Checks if Multisite is active.
+- WP Memory Limit.
+- WP Table Prefix Information.
+- Permalink Structure.
+- Registered Post Stati
+- Show On Front Information
+
+**Theme Information:**
+
+- Theme Name, Version, Author and Author URI
+- Checks if current active theme is a Child Theme
+- If current theme is a child theme, it offers Parent Theme information.
+
+**Plugin Information:**
+
+- Must Use Plugins (if any)
+- Active Plugins
+- Inactive Plugins
+
+**Server Environment:**
+
+- PHP Information
+- PHP Extensions
+- Server Type
+- MySQL Version
+- Host (if possible)
+- Session Configuration
+
+**Client Details:**
+
+- Platform OS
+- Browser: Name, Version, User Agent String.
+
+You can use this for your own debugging purposes or for sharing with Support via two methods: A Dynamic Link, or a text file you can download and send.
+
+### Installation
+
+Installing "Simple System Status" can be done either by searching for "Simple System Status" via the "Plugins > Add New" screen in your WordPress dashboard, or by using the following steps:
+
+1. Download the plugin via WordPress.org
+1. Upload the ZIP file through the 'Plugins > Add New > Upload' screen in your WordPress dashboard
+1. Activate the plugin through the 'Plugins' menu in WordPress
+
+### Screenshots
+
+1. The 'Simple System Status' menu item, under 'Tools'
+2. The Main Screen for viewing System Status, with download link (textfile)
+3. Remote Viewing Link - Generate A Link to share stats with others.
+
+### Frequently Asked Questions
+
+*What is the Simple System Status for?*
+
+This plugin is to View Information about your WordPress 
+Configurationa and Server Information that is useful for debugging.
+
+### Changelog
+
+### 1.0.1 =
+- Minor refactoring
+
+### 1.0.0 =
+- 2015-03-01
+- Initial release
+
+## License
+
+GNU GPL v2.0. ⓒ [Leo Gopal](https://leogopal.com/)
