@@ -1,1 +1,19 @@
-theme: jekyll-theme-minimal
+name:          Simple System Pages Docs
+title:         Simple System Pages Docs
+description:   Plugin documentation for Simple System Status Plugin
+url:           https://github.leogopal.com/
+baseurl:       /simple-system-status
+author:
+  name:    leogopal
+  email:   leo@leogopal.com
+  github:  leogopal
+  twitter: leogopal
+
+markdown:      kramdown
+permalink:     pretty
+highlighter:   rouge
+encoding:      utf-8
+kramdown:
+  input: GFM
+sass:
+  sass_dir: _includes/_sass

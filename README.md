@@ -4,7 +4,9 @@
 [![WP Plugin Version](https://img.shields.io/wordpress/plugin/v/simple-system-status.svg?style=flat-square&label=version)](https://wordpress.org/plugins/simple-system-status/)
 [![WP Downloads](https://img.shields.io/wordpress/plugin/dt/simple-system-status.svg?style=flat-square)](https://wordpress.org/plugins/simple-system-status/)
 [![WP Rating](https://img.shields.io/wordpress/plugin/r/simple-system-status.svg?style=flat-square)](https://wordpress.org/support/view/plugin-reviews/simple-system-status?filter=5)
-[![License](https://img.shields.io/badge/license-GPL%20v2.0-lightgrey.svg?style=flat-square)](https://github.com/ahmadawais/simple-system-status/blob/master/license.txt)
+[![License](https://img.shields.io/badge/license-GPL%20v2.0-lightgrey.svg?style=flat-square)](https://github.com/leogopal/simple-system-status/blob/master/license.txt)
+
+[![Support Level](https://img.shields.io/badge/support-active-green.svg)](#support-level)
 
 Contributors: leogopal, daprela
 Donate link: https://leogopal.com/
