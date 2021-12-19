@@ -1,7 +1,7 @@
 <?php
 /*
  * Plugin Name: Simple System Status
- * Version: 2.1.4
+ * Version: 2.1.5
  * Plugin URI: http://leogopal.com/
  * Description: View Information about your WordPress Configurationa and Server Information that is useful for debugging.
  * Author: Leo Gopal
