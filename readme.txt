@@ -3,9 +3,9 @@ Contributors: leogopal, daprela
 Donate link: https://leogopal.com/
 Tags: wordpress, system, status, developer, tools, debug, debugging, troubleshooting, testing
 Requires at least: 5.0
-Tested up to: 5.7
-Requires PHP: 7.2
-Stable tag: 2.1.3
+Tested up to: 5.8
+Requires PHP: 7.4
+Stable tag: 2.1.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
