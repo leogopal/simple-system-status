@@ -10,43 +10,39 @@
 Contributors: leogopal, daprela
 Donate link: https://leogopal.com/
 Tags: wordpress, system, status, developer, tools, debug, debugging, troubleshooting, testing
-Requires at least: 5.0
-Tested up to: 5.8
+Requires at least: 5.5
+Tested up to: 6.0
 Requires PHP: 7.4
-Stable tag: 2.1.5
+Stable tag: 2.2.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-## Desciption
+#== Description ==
 
 "Simple System Status" does exactly what it says on the box - shows you, very simply, your systems status for your WordPress Setup.
 
 Simple System Status adds a submenu item under the 'tools' section of your WordPress installation.
 
-## What Others are Saying
+= What others are saying =
 
 *This is a brilliant plugin for getting all the relevant info out of your system. The built-in remote viewing option for letting other people securely access your system status is incredibly helpful for remote debugging. Nice work :)*
 ~ *[Hugh Lashbrooke, WooThemes Lead Developer](http://www.hughlashbrooke.com/)*
 
-### Like the Plugin
+= Like the Plugin? =
 
 If you found this plugin useful, **[please give it a rating](https://wordpress.org/support/view/plugin-reviews/simple-system-status?rate=5#postform)**
+Donations are welcome: [Buy me a snack.](http://dayofcode.net/donate/)
 
-### Download
+= Issues and Support =
 
-- Download from [WordPress.org](https://wordpress.org/plugins/simple-system-status/)
-
-
-### Issues and Support
-
-If you find a bug that you would like to report, please open a [New Issue on Github](https://github.com/leogopal/Simple-System-Status-for-WordPress/issues/new).
+If you find a bug that you would like to report, please open a [New Issue on Github](https://github.com/leogopal/simple-system-status/issues/new).
 If you want help using the plugin, please use the default [WordPress Plugin Forum](https://wordpress.org/support/plugin/simple-system-status).
 
-### Contribute
+= Contribute =
 
-Want to contribute? [Fork the GitHub repository](https://github.com/leogopal/Simple-System-Status-for-WordPress).
+Want to contribute? [Fork the GitHub repository](https://github.com/leogopal/simple-system-status/).
 
-###  What Simple System Status Displays For You
+= What Simple System Status Displays For You =
 
 **WordPress Environment:**
 
@@ -88,7 +84,7 @@ Want to contribute? [Fork the GitHub repository](https://github.com/leogopal/Sim
 
 You can use this for your own debugging purposes or for sharing with Support via two methods: A Dynamic Link, or a text file you can download and send.
 
-### Installation
+== Installation ==
 
 Installing "Simple System Status" can be done either by searching for "Simple System Status" via the "Plugins > Add New" screen in your WordPress dashboard, or by using the following steps:
 
@@ -96,27 +92,25 @@ Installing "Simple System Status" can be done either by searching for "Simple Sy
 1. Upload the ZIP file through the 'Plugins > Add New > Upload' screen in your WordPress dashboard
 1. Activate the plugin through the 'Plugins' menu in WordPress
 
-### Screenshots
+== Screenshots ==
 
 1. The 'Simple System Status' menu item, under 'Tools'
 2. The Main Screen for viewing System Status, with download link (textfile)
 3. Remote Viewing Link - Generate A Link to share stats with others.
 
-### Frequently Asked Questions
+== Frequently Asked Questions ==
 
-*What is the Simple System Status for?*
+= What is the Simple System Status for? =
 
-This plugin is to View Information about your WordPress 
-Configurationa and Server Information that is useful for debugging.
+This plugin is to View Information about your WordPress Configurationa and Server Information that is useful for debugging.
 
-### Changelog
+== Changelog ==
+= 1.0.1 =
+* Minor refactoring
 
-### 1.0.1 =
-- Minor refactoring
-
-### 1.0.0 =
-- 2015-03-01
-- Initial release
+= 1.0.0 =
+* 2015-03-01
+* Initial release
 
 ## License
 

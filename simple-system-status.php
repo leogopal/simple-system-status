@@ -6,9 +6,10 @@
  * Description: View Information about your WordPress Configurationa and Server Information that is useful for debugging.
  * Author: Leo Gopal
  * Author URI: http://leogopal.com/
- * Requires at least: 5.0
- * Tested up to: 5.8
+ * Requires at least: 5.5
+ * Tested up to: 6.0
  * Requires PHP: 7.4
+ * Stable tag: 2.2.0
  *
  * Text Domain: sss
  * Domain Path: /lang/

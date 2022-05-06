@@ -1,11 +1,11 @@
 === Simple System Status ===
-Contributors: leogopal, daprela
+Contributors: leogopal
 Donate link: https://leogopal.com/
 Tags: wordpress, system, status, developer, tools, debug, debugging, troubleshooting, testing
-Requires at least: 5.0
-Tested up to: 5.8
+Requires at least: 5.5
+Tested up to: 6.0
 Requires PHP: 7.4
-Stable tag: 2.1.5
+Stable tag: 2.2.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -29,12 +29,12 @@ Donations are welcome: [Buy me a snack.](http://dayofcode.net/donate/)
 
 = Issues and Support =
 
-If you find a bug that you would like to report, please open a [New Issue on Github](https://github.com/leogopal/Simple-System-Status-for-WordPress/issues/new).
+If you find a bug that you would like to report, please open a [New Issue on Github](https://github.com/leogopal/simple-system-status/issues/new).
 If you want help using the plugin, please use the default [WordPress Plugin Forum](https://wordpress.org/support/plugin/simple-system-status).
 
 = Contribute =
 
-Want to contribute? [Fork the GitHub repository](https://github.com/leogopal/Simple-System-Status-for-WordPress).
+Want to contribute? [Fork the GitHub repository](https://github.com/leogopal/simple-system-status/).
 
 = What Simple System Status Displays For You =
 
