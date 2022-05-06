@@ -1,11 +1,11 @@
-name: Plugin asset/readme update
+name: simple-system-status
 on:
   push:
     branches:
     - main
 jobs:
   trunk:
-    name: Push to trunk
+    name: Push to main
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
